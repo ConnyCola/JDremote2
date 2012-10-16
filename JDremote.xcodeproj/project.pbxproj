@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D4B47AC162611BB0095EDBA /* JDremote.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B47AB162611BB0095EDBA /* JDremote.icns */; };
+		3D4B47AF162614F30095EDBA /* JDremote.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B47AD162614F30095EDBA /* JDremote.png */; };
+		3D4B47B0162614F30095EDBA /* JDremoteBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4B47AE162614F30095EDBA /* JDremoteBack.png */; };
+		3D4B48061627728B0095EDBA /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4B48051627728B0095EDBA /* ToDoItem.m */; };
+		3DADBDFB161664AF00D80C03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DADBDFA161664AF00D80C03 /* Cocoa.framework */; };
+		3DADBE05161664AF00D80C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DADBE03161664AF00D80C03 /* InfoPlist.strings */; };
+		3DADBE07161664AF00D80C03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DADBE06161664AF00D80C03 /* main.m */; };
+		3DADBE0B161664AF00D80C03 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3DADBE09161664AF00D80C03 /* Credits.rtf */; };
+		3DADBE0E161664AF00D80C03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DADBE0D161664AF00D80C03 /* AppDelegate.m */; };
+		3DADBE11161664B000D80C03 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DADBE0F161664B000D80C03 /* MainMenu.xib */; };
+		3DADBE19161664B000D80C03 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DADBE18161664B000D80C03 /* SenTestingKit.framework */; };
+		3DADBE1A161664B000D80C03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DADBDFA161664AF00D80C03 /* Cocoa.framework */; };
+		3DADBE22161664B000D80C03 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DADBE20161664B000D80C03 /* InfoPlist.strings */; };
+		3DADBE25161664B000D80C03 /* JDremoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DADBE24161664B000D80C03 /* JDremoteTests.m */; };
+		3DADBE30161664D800D80C03 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DADBE2F161664D800D80C03 /* Controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DADBE1B161664B000D80C03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DADBDED161664AF00D80C03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DADBDF5161664AF00D80C03;
+			remoteInfo = JDremote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D4B47AB162611BB0095EDBA /* JDremote.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = JDremote.icns; sourceTree = "<group>"; };
+		3D4B47AD162614F30095EDBA /* JDremote.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JDremote.png; sourceTree = "<group>"; };
+		3D4B47AE162614F30095EDBA /* JDremoteBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JDremoteBack.png; sourceTree = "<group>"; };
+		3D4B48041627728B0095EDBA /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		3D4B48051627728B0095EDBA /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		3DADBDF6161664AF00D80C03 /* JDremote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDremote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DADBDFA161664AF00D80C03 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3DADBDFD161664AF00D80C03 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3DADBDFE161664AF00D80C03 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3DADBDFF161664AF00D80C03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DADBE02161664AF00D80C03 /* JDremote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JDremote-Info.plist"; sourceTree = "<group>"; };
+		3DADBE04161664AF00D80C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DADBE06161664AF00D80C03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DADBE08161664AF00D80C03 /* JDremote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JDremote-Prefix.pch"; sourceTree = "<group>"; };
+		3DADBE0A161664AF00D80C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3DADBE0C161664AF00D80C03 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DADBE0D161664AF00D80C03 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DADBE10161664B000D80C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3DADBE17161664B000D80C03 /* JDremoteTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDremoteTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DADBE18161664B000D80C03 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		3DADBE1F161664B000D80C03 /* JDremoteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JDremoteTests-Info.plist"; sourceTree = "<group>"; };
+		3DADBE21161664B000D80C03 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DADBE23161664B000D80C03 /* JDremoteTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDremoteTests.h; sourceTree = "<group>"; };
+		3DADBE24161664B000D80C03 /* JDremoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDremoteTests.m; sourceTree = "<group>"; };
+		3DADBE2E161664D800D80C03 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = JDremote/Controller.h; sourceTree = "<group>"; };
+		3DADBE2F161664D800D80C03 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Controller.m; path = JDremote/Controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DADBDF3161664AF00D80C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DADBDFB161664AF00D80C03 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DADBE13161664B000D80C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DADBE19161664B000D80C03 /* SenTestingKit.framework in Frameworks */,
+				3DADBE1A161664B000D80C03 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D4B4807162778540095EDBA /* res */ = {
+			isa = PBXGroup;
+			children = (
+				3D4B47AB162611BB0095EDBA /* JDremote.icns */,
+				3D4B47AD162614F30095EDBA /* JDremote.png */,
+				3D4B47AE162614F30095EDBA /* JDremoteBack.png */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		3DADBDEB161664AF00D80C03 = {
+			isa = PBXGroup;
+			children = (
+				3DADBE2E161664D800D80C03 /* Controller.h */,
+				3DADBE2F161664D800D80C03 /* Controller.m */,
+				3D4B48041627728B0095EDBA /* ToDoItem.h */,
+				3D4B48051627728B0095EDBA /* ToDoItem.m */,
+				3DADBE00161664AF00D80C03 /* JDremote */,
+				3DADBE1D161664B000D80C03 /* JDremoteTests */,
+				3DADBDF9161664AF00D80C03 /* Frameworks */,
+				3DADBDF7161664AF00D80C03 /* Products */,
+				3D4B4807162778540095EDBA /* res */,
+			);
+			sourceTree = "<group>";
+		};
+		3DADBDF7161664AF00D80C03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DADBDF6161664AF00D80C03 /* JDremote.app */,
+				3DADBE17161664B000D80C03 /* JDremoteTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DADBDF9161664AF00D80C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DADBDFA161664AF00D80C03 /* Cocoa.framework */,
+				3DADBE18161664B000D80C03 /* SenTestingKit.framework */,
+				3DADBDFC161664AF00D80C03 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DADBDFC161664AF00D80C03 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DADBDFD161664AF00D80C03 /* AppKit.framework */,
+				3DADBDFE161664AF00D80C03 /* CoreData.framework */,
+				3DADBDFF161664AF00D80C03 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3DADBE00161664AF00D80C03 /* JDremote */ = {
+			isa = PBXGroup;
+			children = (
+				3DADBE0C161664AF00D80C03 /* AppDelegate.h */,
+				3DADBE0D161664AF00D80C03 /* AppDelegate.m */,
+				3DADBE0F161664B000D80C03 /* MainMenu.xib */,
+				3DADBE01161664AF00D80C03 /* Supporting Files */,
+			);
+			path = JDremote;
+			sourceTree = "<group>";
+		};
+		3DADBE01161664AF00D80C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DADBE02161664AF00D80C03 /* JDremote-Info.plist */,
+				3DADBE03161664AF00D80C03 /* InfoPlist.strings */,
+				3DADBE06161664AF00D80C03 /* main.m */,
+				3DADBE08161664AF00D80C03 /* JDremote-Prefix.pch */,
+				3DADBE09161664AF00D80C03 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DADBE1D161664B000D80C03 /* JDremoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DADBE23161664B000D80C03 /* JDremoteTests.h */,
+				3DADBE24161664B000D80C03 /* JDremoteTests.m */,
+				3DADBE1E161664B000D80C03 /* Supporting Files */,
+			);
+			path = JDremoteTests;
+			sourceTree = "<group>";
+		};
+		3DADBE1E161664B000D80C03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DADBE1F161664B000D80C03 /* JDremoteTests-Info.plist */,
+				3DADBE20161664B000D80C03 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DADBDF5161664AF00D80C03 /* JDremote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DADBE28161664B000D80C03 /* Build configuration list for PBXNativeTarget "JDremote" */;
+			buildPhases = (
+				3DADBDF2161664AF00D80C03 /* Sources */,
+				3DADBDF3161664AF00D80C03 /* Frameworks */,
+				3DADBDF4161664AF00D80C03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDremote;
+			productName = JDremote;
+			productReference = 3DADBDF6161664AF00D80C03 /* JDremote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DADBE16161664B000D80C03 /* JDremoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DADBE2B161664B000D80C03 /* Build configuration list for PBXNativeTarget "JDremoteTests" */;
+			buildPhases = (
+				3DADBE12161664B000D80C03 /* Sources */,
+				3DADBE13161664B000D80C03 /* Frameworks */,
+				3DADBE14161664B000D80C03 /* Resources */,
+				3DADBE15161664B000D80C03 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DADBE1C161664B000D80C03 /* PBXTargetDependency */,
+			);
+			name = JDremoteTests;
+			productName = JDremoteTests;
+			productReference = 3DADBE17161664B000D80C03 /* JDremoteTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DADBDED161664AF00D80C03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 3DADBDF0161664AF00D80C03 /* Build configuration list for PBXProject "JDremote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3DADBDEB161664AF00D80C03;
+			productRefGroup = 3DADBDF7161664AF00D80C03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DADBDF5161664AF00D80C03 /* JDremote */,
+				3DADBE16161664B000D80C03 /* JDremoteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DADBDF4161664AF00D80C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DADBE05161664AF00D80C03 /* InfoPlist.strings in Resources */,
+				3DADBE0B161664AF00D80C03 /* Credits.rtf in Resources */,
+				3DADBE11161664B000D80C03 /* MainMenu.xib in Resources */,
+				3D4B47AC162611BB0095EDBA /* JDremote.icns in Resources */,
+				3D4B47AF162614F30095EDBA /* JDremote.png in Resources */,
+				3D4B47B0162614F30095EDBA /* JDremoteBack.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DADBE14161664B000D80C03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DADBE22161664B000D80C03 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DADBE15161664B000D80C03 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DADBDF2161664AF00D80C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DADBE07161664AF00D80C03 /* main.m in Sources */,
+				3DADBE0E161664AF00D80C03 /* AppDelegate.m in Sources */,
+				3DADBE30161664D800D80C03 /* Controller.m in Sources */,
+				3D4B48061627728B0095EDBA /* ToDoItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DADBE12161664B000D80C03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DADBE25161664B000D80C03 /* JDremoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DADBE1C161664B000D80C03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DADBDF5161664AF00D80C03 /* JDremote */;
+			targetProxy = 3DADBE1B161664B000D80C03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DADBE03161664AF00D80C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DADBE04161664AF00D80C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DADBE09161664AF00D80C03 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DADBE0A161664AF00D80C03 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3DADBE0F161664B000D80C03 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DADBE10161664B000D80C03 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3DADBE20161664B000D80C03 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DADBE21161664B000D80C03 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DADBE26161664B000D80C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3DADBE27161664B000D80C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3DADBE29161664B000D80C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDremote/JDremote-Prefix.pch";
+				INFOPLIST_FILE = "JDremote/JDremote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DADBE2A161664B000D80C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDremote/JDremote-Prefix.pch";
+				INFOPLIST_FILE = "JDremote/JDremote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3DADBE2C161664B000D80C03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JDremote.app/Contents/MacOS/JDremote";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDremote/JDremote-Prefix.pch";
+				INFOPLIST_FILE = "JDremoteTests/JDremoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3DADBE2D161664B000D80C03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/JDremote.app/Contents/MacOS/JDremote";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JDremote/JDremote-Prefix.pch";
+				INFOPLIST_FILE = "JDremoteTests/JDremoteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DADBDF0161664AF00D80C03 /* Build configuration list for PBXProject "JDremote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DADBE26161664B000D80C03 /* Debug */,
+				3DADBE27161664B000D80C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DADBE28161664B000D80C03 /* Build configuration list for PBXNativeTarget "JDremote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DADBE29161664B000D80C03 /* Debug */,
+				3DADBE2A161664B000D80C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DADBE2B161664B000D80C03 /* Build configuration list for PBXNativeTarget "JDremoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DADBE2C161664B000D80C03 /* Debug */,
+				3DADBE2D161664B000D80C03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DADBDED161664AF00D80C03 /* Project object */;
+}
